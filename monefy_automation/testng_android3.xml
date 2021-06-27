@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExpenseCharter_Suite">
+	<parameter name="environment" value="${environment}" />
+	<parameter name="platform" value="${platform}" />
+	<parameter name="deviceName" value="${deviceName}" />
+	<parameter name="platformVersion" value="${platformVersion}" />
+	<parameter name="appPath" value="${appPath}" />
+	<parameter name="logFilePath" value="${logFilePath}" />
+	<test name="Integration Scenario Test">
+		<classes>
+			<class name="com.monefy.app.lite.scenarios.IntegrationScenarioTest">
+				<methods>
+					<include name="verifyHomeScreen" />
+					<include name="verifyIncomeScreen_AddingIncome" />
+					<include name="verifyIncomeScreen_AddingExpense" />
+				</methods>
+			</class>
+		</classes>
+</test> <!-- Test -->
+</suite> <!-- Suite -->
