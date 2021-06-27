@@ -1,7 +1,7 @@
 Mobile Automation Framework
 =======================
 
-# Testing Mobile App using Open Source Tools
+## Testing Mobile App using Open Source Tools
 
 ## Objective
 
@@ -20,15 +20,14 @@ This is a simple **Maven** project designed as a hybrid framwork with combinatio
 
 1. Download and Install JDK8 from the below link
 
-[https://adoptopenjdk.net/]
+    [https://adoptopenjdk.net/]
 
 2. Download and Install Android Studio from the below link
-
-[https://developer.android.com/studio?gclid=CjwKCAjww-CGBhALEiwAQzWxOhsAUZlMWuodNM3WgYZUY82q1QILJoGWT2AW5ESns35NwSgD60pYfxoCjkwQAvD_BwE&gclsrc=aw.ds]
+  [https://developer.android.com/studio?gclid=CjwKCAjww-CGBhALEiwAQzWxOhsAUZlMWuodNM3WgYZUY82q1QILJoGWT2AW5ESns35NwSgD60pYfxoCjkwQAvD_BwE&gclsrc=aw.ds]
 
 3. Download and Install Appium Desktop from the below link 
 
-[https://github.com/appium/appium-desktop/releases/]
+    [https://github.com/appium/appium-desktop/releases/]
 
 >Note: Appium version above  1.17.0 is preferrable
 
