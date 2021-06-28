@@ -48,3 +48,5 @@ This is a simple **Maven** project designed as a hybrid framwork with combinatio
 ```
      mvn clean test -Drelease.arguments=testng_android3.xml  -Dplatform=Android -DdeviceName=Android -DplatformVersion=9.0 -DappPath=/src/test/resources/AppFile/com.monefy.app.lite_2021-06-15.apk -DlogFilePath=/src/test/resources/Screenshots
 ```
+
+

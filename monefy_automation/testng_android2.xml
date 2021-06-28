@@ -9,7 +9,7 @@
 	<parameter name="logFilePath" value="${logFilePath}" />
 	<test name="Expense Scenario Test">
 		<classes>
-			<class name="com.monefy.app.lite.scenarios.IncomeScenarioTest">
+			<class name="com.monefy.app.lite.scenarios.ExpenseScenarioTest">
 				<methods>
 					<include name="verifyHomeScreen" />
 					<include name="verifyExpenseScreen" />
